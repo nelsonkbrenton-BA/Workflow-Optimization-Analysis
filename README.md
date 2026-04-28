@@ -1,2 +1,2 @@
 # Workflow-Optimization-Analysis
-Portfolio project using Excel, SQL, and Power BI to analyze workflow delays and cost inneficiencies
+Analysis of Brightpath Services' workflow delays and cost inefficiencies using Excel, SQL, and Power BI
