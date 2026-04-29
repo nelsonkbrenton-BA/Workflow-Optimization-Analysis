@@ -34,11 +34,13 @@ The simulated dataset contained structured task-level workflow records from 2024
 <img width="634" height="361" alt="image" src="https://github.com/user-attachments/assets/504884da-c7f3-4e43-9704-4701299f554e" />
 
 ## Key Findings
-- The Review process step was the primary bottleneck, with the highest average delay across workflow stages.
-- The Finance department had the highest overall average delay among departments.
-- Low-priority tasks experienced the highest average delay, suggesting routine work may have been deprioritized.
-- Level 1 approval tasks had the highest average cost per task.
-- Review-stage delays were especially concentrated in Finance and HR.
+- The analysis shows that BrightPath’s workflow inefficiencies are driven by a broader process issue rather than a specific department or variable. The strongest pattern in the data is that delays consistently build during the Review step in the workflow.
+- Review was the main workflow bottleneck, with the highest overall average delay at 61 minutes.
+- Cross-analysis by department and process step showed that step 3(review) had the highest delay across every department, making it a company-wide issue rather than a problem limited to one team.
+- Finance has the highest overall departmental delay at 57 minutes, suggesting that this department may experience more workflow friction than others.
+- Low-priority tasks had the highest average delay at 57 minutes, indicating less urgent work may be pushed back while teams focus on higher-priority tasks.
+- Level 1 tasks had the highest cost per task at $285, suggesting that the early stage workflow actively requires more manual effort, clarification, or rework.
+- Level 3 tasks had the highest task volume but the lowest average cost per task, which may indicate that some requests are streamlined or auto-cleared before reaching later-stage review.
 
 ## Recommendations
 - Standardize the review stage by creating a common review checklist, defining required documentation for each request type, and setting turnaround expectations for reviewers.
